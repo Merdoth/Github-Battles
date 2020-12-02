@@ -39,7 +39,5 @@ export default function ToolTip({ text, children }) {
 }
 
 ToolTip.propTypes = {
-
   text: PropTypes.string.isRequired,
-  hovering: PropTypes.bool.isRequired,
 }
